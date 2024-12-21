@@ -18,8 +18,3 @@ urlpatterns = (
     + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 )
-
-PROJECT_NAME = settings.APP_SETTINGS.get("site_name")
-admin.site.site_header = _("%(project_name)s Administration") % {"project_name": PROJECT_NAME}
-admin.site.site_title = _("%(project_name)s Admin Portal") % {"project_name": PROJECT_NAME}
-admin.site.index_title = _("Welcome to %(project_name)s Admin Portal") % {"project_name": PROJECT_NAME}
