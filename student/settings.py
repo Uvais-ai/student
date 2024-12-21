@@ -129,12 +129,8 @@ STATIC_ROOT = BASE_DIR / "assets"
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 APP_SETTINGS = {
-    "logo": "/static/dashboard/app/config/logo.png",
-    "logo_mini": "/static/dashboard/app/config/logo.png",
-    "favicon": "/static/dashboard/app/config/logo.png",
-    "site_name": "Handmade & Field",
-    "site_title": "Handmade & Field",
-    "site_description": "Handmade & Field",
-    "site_keywords": " Household Appliances and Electrical and Electronic Goods Merchant Wholesalers ,  Paper and Paper Product Merchant Wholesalers ,  Merchant Wholesalers, Durable Goods ,  Wholesale Trade ,  Electric household appliances, Handmade & Field",
-    # "background_image": "/static/dashboard/app/config/background.jpg",
+    "site_name": "Student & Field",
+    "site_title": "Student & Field",
+    "site_description": "Student & Field",
+    "site_keywords": " Household Appliances and Electrical and Electronic Goods Merchant Wholesalers ,  Paper and Paper Product Merchant Wholesalers ,  Merchant Wholesalers, Durable Goods ,  Wholesale Trade ,  Electric household appliances, Student & Field",
 }
