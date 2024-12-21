@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tudent List</title>
+    <link rel="stylesheet" href="{% static 'web/style.css' %}">
+</head>
+<body>
+    </head>
+    <body>
+        <h1>Student List</h1>
+        <table border="1" cellpadding="5">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for student in students %}
+            <tr>
+              <td>{{ student.name }}</td>
+              <td>{{ student.email }}</td>
+              <td>{{ student.age }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+</body>
+</html>
