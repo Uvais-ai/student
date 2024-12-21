@@ -127,10 +127,3 @@ STATIC_ROOT = BASE_DIR / "assets"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-APP_SETTINGS = {
-    "site_name": "Student & Field",
-    "site_title": "Student & Field",
-    "site_description": "Student & Field",
-    "site_keywords": " Household Appliances and Electrical and Electronic Goods Merchant Wholesalers ,  Paper and Paper Product Merchant Wholesalers ,  Merchant Wholesalers, Durable Goods ,  Wholesale Trade ,  Electric household appliances, Student & Field",
-}
