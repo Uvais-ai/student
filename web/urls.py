@@ -6,6 +6,5 @@ from . import views
 app_name = "web"
 
 urlpatterns = [
-    path('', views.student_list, name='student_list'),
-    path('student/<int:pk>/', views.student_detail, name='student_detail'),
+      path('', StudentListView.as_view(), name='student_list'),
 ]
